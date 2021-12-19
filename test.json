@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "e29d9b94-1512-4ad9-8ded-bb8314c7a291",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"roque\",\r\n\"endereço\": \"rua numero 2\",\r\n\"profissao\": \"QA\",\r\n\"age\": 42,\r\n\"team\": \"ordem Negra\",\r\n\"active\": \"false\"\r\n}"
+				},
+				"url": {
+					"raw": "https://httpbin.org/post",
+					"protocol": "https",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
